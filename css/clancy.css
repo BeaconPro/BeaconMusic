@@ -1,0 +1,82 @@
+/* General styling for the entire page */
+body {
+    font-family: Arial, sans-serif; /* Sets a modern, clean font */
+    background-color: black; /* Sets the background to dark blue */
+    color: white; /* Ensures text is visible against the dark background */
+    margin: 0; /* Removes default browser margins */
+    padding: 0; /* Removes default browser padding */
+}
+/* Styling for the header */
+header {
+    background-color: black; /* Vibrant header background */
+    color: white; /* White text for contrast */
+    text-align: center; /* Centers the text */
+    padding: 20px; /* Adds space inside the header */
+    font-family: Arial, sans-serif; /* Unique font for the header */
+}
+
+/* Styling for the main content area */
+main {
+    padding: 20px; /* Adds spacing around the main content */
+}
+
+/* Styling for sections */
+section {
+    text-align: center; /* Centers the content */
+    margin: 20px auto; /* Adds space around the section and centers it */
+    max-width: 800px; /* Constrains the width for better readability */
+    background-color: #ff0000; /* Light background to distinguish sections */
+    border-radius: 8px; /* Adds rounded corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    padding: 20px; /* Adds spacing inside the section */
+}
+
+/* Styling for articles within a section */
+article {
+    margin: 20px 0; /* Adds spacing between articles */
+    padding: 10px; /* Adds inner spacing */
+}
+
+/* Styling for images */
+img {
+    border-radius: 8px; /* Adds rounded corners to images */
+    margin: 10px 0; /* Adds space around images */
+}
+
+/* Styling for audio controls */
+audio {
+    margin-top: 10px; /* Adds space above the audio element */
+    margin-bottom: 10px; /* Adds space below the audio element */
+    width: 100%; /* Makes the audio player full width */
+}
+
+/* Add styling for footer if applicable */
+footer {
+    background-color: #00c7ff; /* Matches the header background */
+    color: white; /* White text for contrast */
+    text-align: center; /* Centers the content */
+    padding: 15px; /* Adds padding inside the footer */
+    margin-top: 20px; /* Adds space above the footer */
+}
+/* Universal box-sizing rule */
+* {
+    box-sizing: border-box; /* Ensures consistent sizing for all elements */
+}
+a {
+    color: orangered; /* Sets link color */
+    text-decoration: none; /* Removes underline from links */
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Button color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+  .button:hover {
+    background-color: #0056b3; /* Hover color */
+}

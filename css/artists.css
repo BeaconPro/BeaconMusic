@@ -1,0 +1,64 @@
+/* Styling for the header */
+header {
+    font-family: "Copperplate", fantasy;
+    background-color: #00c7ff; /* Light blue background */
+    color: #fff; /* White text color */
+    font-size: 2em; /* Larger font size for the header */
+    margin: 0; /* Removes default margin for the header */
+     padding: 20px; /* Adds some spacing inside the header for better layout */
+     border-radius: 5px; /* Rounds the corners of the header
+      */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow effect */
+    text-align: center; /* Ensures the text and navigation are centered */
+    padding: 20px; /* Adds some spacing inside the header for better layout */
+}
+
+/* Styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #74e1ff;
+    margin: 0; /* Removes default margin for the body */
+    padding: 0; /* Removes default padding for the body */
+}
+
+/* Styling for the section */
+section {
+    display: flex; /* Enables a flexible layout */
+    flex-direction: column; /* Stacks items vertically */
+    align-items: center; /* Centers items horizontally */
+    text-align: center; /* Centers text content */
+    margin: 20px auto; /* Adds spacing around the section */
+    max-width: 800px; /* Constrains section width for better readability */
+}
+
+/* Add a universal selector for consistent box-sizing */
+* {
+    box-sizing: border-box;
+}
+
+/* Optional: Footer styling for consistency */
+footer {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #00c7ff;
+    padding: 15px;
+    margin-top: 20px;
+}
+a {
+    color: #fff; /* White text color for links */
+    text-decoration: none; /* Removes underline from links */
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Button color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Hover color */
+}
