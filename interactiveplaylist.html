@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Playlist</title>
+    <link rel="stylesheet" href="css/ip.css">
+</head>
+<body>
+    <div class="playlist-container">
+        <form action="index.html">
+            <input type="text" id="search" placeholder="Playlist Title">
+        </form>
+        <div class="controls">
+            <button id="play">Play</button>
+            <button id="pause">Pause</button>
+            <button id="next">Next</button>
+        </div>
+        <ul id="playlist">
+            <!-- Songs will be added here dynamically -->
+        </ul>
+        <input type="text" id="songInput" placeholder="Add a song file name">
+        <button id="addSong">Add Song</button>
+    </div>
+    <audio id="audioPlayer"></audio>
+    <script src="script.js"></script>
+</body>
+</html>

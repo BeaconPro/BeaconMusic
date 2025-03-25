@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Playlist 1</title>
+</head>
+<body>
+  <audio id="audioPlayer" controls>
+    <source src="TOP Music\The Line.mp3.wav" type="audio/wav">
+  </audio>
+  <script>
+    // Define your playlist
+const playlist = [
+    'TOP Music/The Line.mp3.wav',
+    'TOP Music/Stressed Out.mp3.wav',
+    'Bad Bunny/Weltita.mp3',
+	 'Bad Bunny/Velda.mp3'
+];
+
+let currentSongIndex = 0;
+const audioPlayer = document.getElementById('audioPlayer');
+
+// Set up the audio source initially
+audioPlayer.src = playlist[currentSongIndex];
+
+// Add an event listener to detect when a song ends
+audioPlayer.addEventListener('ended', () => {
+    // Move to the next song
+    currentSongIndex = (currentSongIndex + 1) % playlist.length; // Loop back to the first song
+    audioPlayer.src = playlist[currentSongIndex];
+    audioPlayer.play(); // Play the new song
+});
+// Play the playlist on load (optional)
+audioPlayer.play();
+  </script>
+</body>
+</html>
