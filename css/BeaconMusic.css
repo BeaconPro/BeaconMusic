@@ -66,13 +66,12 @@ a {
 }
 
 img {
-  display: flex
+  display: block;
   max-width: 100%; /* Responsive image */
   height: auto; /* Maintains aspect ratio */
   border-radius: 10px; /* Rounded corners for images */
   margin-left: auto;
   margin-right: auto;
-  justify-content: center;
 }
 
 /* Tablet and Mobile Styles (max-width: 768px) */
