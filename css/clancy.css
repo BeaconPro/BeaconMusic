@@ -8,7 +8,7 @@ body {
 }
 /* Styling for the header */
 header {
-    background-color: black; /* Vibrant header background */
+    background-color: red; /* Vibrant header background */
     color: white; /* White text for contrast */
     text-align: center; /* Centers the text */
     padding: 20px; /* Adds space inside the header */
