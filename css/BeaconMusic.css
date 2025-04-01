@@ -64,19 +64,15 @@ a {
 .button:hover {
     background-color: #0056b3; /* Hover color */
 }
-img {
-    max-width: 100%; /* Responsive image */
-    height: auto; /* Maintains aspect ratio */
-    border-radius: 10px; /* Rounded corners for images */
-}
-/* Ensure all images remain responsive */
+
 img {
   display: block;
   max-width: 100%; /* Responsive image */
   height: auto; /* Maintains aspect ratio */
   border-radius: 10px; /* Rounded corners for images */
+  margin-left: auto;
+  margin-right: auto;
 }
-
 
 /* Tablet and Mobile Styles (max-width: 768px) */
 @media screen and (max-width: 768px) {
