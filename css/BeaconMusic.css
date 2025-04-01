@@ -69,3 +69,46 @@ img {
     height: auto; /* Maintains aspect ratio */
     border-radius: 10px; /* Rounded corners for images */
 }
+/* Ensure all images remain responsive */
+img {
+  display: block;
+  max-width: 100%; /* Responsive image */
+  height: auto; /* Maintains aspect ratio */
+  border-radius: 10px; /* Rounded corners for images */
+}
+
+
+/* Tablet and Mobile Styles (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  header {
+    font-size: 1.5rem; /* Slightly larger header relative to base size */
+    padding: 0.625rem; /* 10px converted to rem */
+  }
+
+  section {
+    display: flex; /* Ensure flex container behavior if not already defined */
+    flex-direction: column; /* Stack children vertically */
+    margin: 0.625rem; /* 10px margin for breathing room */
+  }
+
+  .button {
+    font-size: 0.875rem; /* 14px equivalent */
+    padding: 0.5rem; /* 8px padding converted to rem */
+  }
+}
+
+/* Small Mobile Styles (max-width: 480px) */
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.2rem; /* Reduces heading size for smaller screens */
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column; /* Stack nav links vertically */
+  }
+
+  footer {
+    font-size: 0.75rem; /* 12px equivalent for tighter spacing */
+  }
+}
