@@ -10,6 +10,118 @@
     <meta name="author" content="Meisacoder123">
   </head>
   <body>
-    
-  </body>
-</html>
+    <header>
+        <h1>Blurryface</h1>
+        <nav>
+            <a href="index.html">Home</a></li>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>About the Album</h2>
+            <p>Blurryface is the fourth studio album by American musical duo Twenty One Pilots, released on May 17, 2015. The album features a mix of various genres, including rock, pop, and alternative.</p>
+        </section>
+        <section>
+            <p>1 - Heavydirtysoul</p>
+            <audio controls>
+                <source src="New TOP/(2015) 01 Heavy Dirty Soul.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>2 - Stressed Out</p>
+            <audio controls>
+                <source src="New TOP/(2015) 02 Stressed Out.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>3 - Ride</p>
+            <audio controls>
+                <source src="TOP Music/Ride.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>4 - Fairly Local</p>
+            <audio controls>
+                <source src="New TOP/(2015) 04 Fairly Local.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>5 - Tear In My Heart</p>
+            <audio controls>
+                <source src="New TOP/(2015) 05 Tear In My Heart.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>6 - Lane Boy</p>
+            <audio controls>
+                <source src="New TOP/(2015) 06 Lane Boy.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>7 - The Judge</p>
+            <audio controls>
+                <source src="New TOP/(2015) 07 The Judge.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>8 - Doubt</p>
+            <audio controls>
+                <source src="New TOP/(2015) 08 Doubt.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>9 - Polarize</p>
+            <audio controls>
+                <source src="New TOP/(2015) 09 Polarize.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>10 - We Don't Believe What's On TV</p>
+            <audio controls>
+                <source src="New TOP/(2015) 10 We Don't Believe What's On TV.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>11 - Message Man</p>
+            <audio controls>
+                <source src="New TOP/(2015) 11 Message Man.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>12 - Hometown</p>
+            <audio controls>
+                <source src="New TOP/(2015) 12 Hometown.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>13 - Not Today</p>
+            <audio controls>
+                <source src="New TOP/(2015) 13 Not Today.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>14 - Goner</p>
+            <audio controls>
+                <source src="New TOP/(2015) 14 Goner.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+        <section>
+            <p>Play From Start To Finish</p>
+            <audio controls id="audioPlayer">
+                <source src="New TOP/(2015) 01 Heavy Dirty Soul.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <script>
+                // Define your playlist
+            const playlist = [
+                'AJR/Maybe Man.mp3',
+                'AJR/Touchy Feely Fool.mp3',
+                'AJR/Yes I/m A Mess.mp3
+            ];
+            
+            let currentSongIndex = 0;
+            const audioPlayer = document.getElementById('audioPlayer');
+            
+            // Set up the audio source initially
+            audioPlayer.src = playlist[currentSongIndex];
+            
+            // Add an event listener to detect when a song ends
+            audioPlayer.addEventListener('ended', () => {
+                // Move to the next song
+                currentSongIndex = (currentSongIndex + 1) % playlist.length; // Loop back to the first song
+                audioPlayer.src = playlist[currentSongIndex];
+                audioPlayer.play(); // Play the new song
+            });
+              </script>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 The Maybe Man Album</p>
