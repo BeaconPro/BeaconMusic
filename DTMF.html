@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeaconMusic - Debí Tirar Más Fotos</title>
+    <link rel="stylesheet" href="css/blurryface.css">
+    <link rel="shortcut icon" href="blurryface.jpeg">
+    <style>
+        .button {
+          display: inline-block;
+          padding: 10px 20px;
+          background-color: #007bff; /* Button color */
+          color: white;
+          text-decoration: none;
+          border-radius: 5px; /* Rounded corners */
+          font-size: 16px;
+        }
+      
+        .button:hover {
+          background-color: #0056b3; /* Hover color */
+        }
+        a {
+        color: white; /* White text for contrast */
+        text-align: center; /* Centers the content */
+        text-decoration: none; /* Removes underline from links */
+        font-family: "Copperplate", Papyrus, fantasy; /* Font style */
+        }
+      </style>
+</head>
+<body>
+    <header>
+        <h1>Debí Tirar Más Fotos</h1>
+        <nav>
+            <a class="button" href="BeaconMusic.html">Home</a>
+            <a class="button" href="artists.html">Artists</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>About the Album</h2>
+            <p>Bad Bunny's "Debí Tirar Más Fotos" explores themes of love, nostalgia, and cultural identity, blending reggaeton with experimental sounds. The album has been praised for its innovative production and heartfelt lyrics.</p>
+        </section>
+        <section>
+            <p>1 - NUEVAYoL</p>
+            <audio controls>
+                <source src="Bad Bunny/NUEVAYoL.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>2 - VOY A LLeVARTE PA PR</p>
+            <audio controls>
+                <source src="Bad Bunny/VOY A LLeVARTE PA PR.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>3 - BAILE INoLVIDABLE</p>
+            <audio controls>
+                <source src="Bad Bunny/BAILE INoLVIDABLE.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>4 - PERFuMITO NUEVO</p>
+            <audio controls>
+                <source src="Bad Bunny/Perfumito Nuevo.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>5 - WELTiTA</p>
+            <audio controls>
+                <source src="Bad Bunny/Weltita.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>6 - VeLDÁ</p>
+            <audio controls>
+                <source src="Bad Bunny/Velda.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>7 - EL CLúB</p>
+            <audio controls>
+                <source src="Bad Bunny/El CluB.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>8 - KETU TeCRÉ</p>
+            <audio controls>
+                <source src="Bad Bunny/KETU TeCRÉ.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>9 - BOKeTE</p>
+            <audio controls>
+                <source src="Bad Bunny/BOKeTE.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>10 - KLOuFRENS</p>
+            <audio controls>
+                <source src="Bad Bunny/KLOuFRENS.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>11 - TURiSTA</p>
+            <audio controls>
+                <source src="Bad Bunny/TURiSTA.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>12 - CAFé CON RON</p>
+            <audio controls>
+                <source src="Bad Bunny/Cafe Con Ron.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>13 - PIToRRO DE COCO</p>
+            <audio controls>
+                <source src="Bad Bunny/PIToRRO DE COCO.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>14 - LO QUE LE PASÓ A HAWAii</p>
+            <audio controls>
+                <source src="Bad Bunny/LO QUE LE PASÓ A HAWAii.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>15 - EoO</p>
+            <audio controls>
+                <source src="Bad Bunny/EoO.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>16 - DtMF</p>
+            <audio controls>
+                <source src="Bad Bunny/DtMF.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>17 - LA MuDANZA</p>
+            <audio controls>
+                <source src="Bad Bunny/LA MuDANZA.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+        <section>
+            <p>Play From Start To Finish</p>
+            <audio controls id="audioPlayer">
+                <source src="" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <script>
+                // Define your playlist
+            const playlist = [
+                'Bad Bunnny/NUEVAYoL.mp3',
+                'Bad Bunny/VOY A LLeVARTE PA PR.mp3',
+                'Bad Bunny/BAILE INolvidable.mp3',
+                'Bad Bunny/Perfumito Nuevo.mp3',
+                'Bad Bunny/Weltita.mp3',
+                'Bad Bunny/Velda.mp3',
+                'Bad Bunny/El CluB.mp3',
+                'Bad Bunny/KETU TeCRÉ.mp3',
+                'Bad Bunny/BOKeTE.mp3',
+                'Bad Bunny/KLOuFRENS.mp3',
+                'Bad Bunny/TURiSTA.mp3',
+                'Bad Bunny/Cafe Con Ron.mp3',
+                'Bad Bunny/PIToRRO DE COCO.mp3',
+                'Bad Bunny/LO QUE LE PASÓ A HAWAii.mp3',
+                'Bad Bunny/EoO.mp3',
+                'Bad Bunny/DtMF.mp3',
+                'Bad Bunny/LA MuDANZA.mp3'
+            ];
+            
+            let currentSongIndex = 0;
+            const audioPlayer = document.getElementById('audioPlayer');
+            
+            // Set up the audio source initially
+            audioPlayer.src = playlist[currentSongIndex];
+            
+            // Add an event listener to detect when a song ends
+            audioPlayer.addEventListener('ended', () => {
+                // Move to the next song
+                currentSongIndex = (currentSongIndex + 1) % playlist.length; // Loop back to the first song
+                audioPlayer.src = playlist[currentSongIndex];
+                audioPlayer.play(); // Play the new song
+            });
+              </script>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 DtMF Album</p>
+</html>
