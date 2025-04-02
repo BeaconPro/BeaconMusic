@@ -1,0 +1,72 @@
+/* General styling for the entire page */
+body {
+    font-family: Arial, sans-serif; /* Sets a modern, clean font */
+    background-color: wheat; /* Sets the background to dark blue */
+    color: white; /* Ensures text is visible against the dark background */
+    margin: 0; /* Removes default browser margins */
+    padding: 0; /* Removes default browser padding */
+}
+/* Styling for the header */
+header {
+    font-family: "Copperplate", fantasy;
+    background-color: darkgreen; /* Light blue background */
+    color: white; /* White text color */
+    font-size: 2em; /* Larger font size for the header */
+    margin: 0; /* Removes default margin for the header */
+     padding: 20px; /* Adds some spacing inside the header for better layout */
+     border-radius: 5px; /* Rounds the corners of the header
+      */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow effect */
+    text-align: center; /* Ensures the text and navigation are centered */
+    padding: 20px; /* Adds some spacing inside the header for better layout */
+}
+
+/* Styling for the main content area */
+main {
+    padding: 20px; /* Adds spacing around the main content */
+}
+
+/* Styling for sections */
+section {
+    text-align: center; /* Centers the content */
+    margin: 20px auto; /* Adds space around the section and centers it */
+    max-width: 800px; /* Constrains the width for better readability */
+    background-color: green; /* Light background to distinguish sections */
+    border-radius: 8px; /* Adds rounded corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    padding: 20px; /* Adds spacing inside the section */
+}
+
+/* Styling for articles within a section */
+article {
+    margin: 20px 0; /* Adds spacing between articles */
+    padding: 10px; /* Adds inner spacing */
+}
+
+/* Styling for images */
+img {
+    border-radius: 8px; /* Adds rounded corners to images */
+    margin: 10px 0; /* Adds space around images */
+}
+
+/* Styling for audio controls */
+audio {
+    margin-top: 10px; /* Adds space above the audio element */
+}
+
+/* Add styling for footer if applicable */
+footer {
+    background-color: #00c7ff; /* Matches the header background */
+    color: white; /* White text for contrast */
+    text-align: center; /* Centers the content */
+    padding: 15px; /* Adds padding inside the footer */
+    margin-top: 20px; /* Adds space above the footer */
+}
+/* Universal box-sizing rule */
+* {
+    box-sizing: border-box; /* Ensures consistent sizing for all elements */
+}
+a {
+    color: black; /* Sets link color */
+    text-decoration: none; /* Removes underline from links */
+}
