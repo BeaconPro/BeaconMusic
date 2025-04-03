@@ -1,28 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactive Playlist</title>
-    <link rel="stylesheet" href="css/ip.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="ip.css">
+  <title>Interactive Playlist</title>
 </head>
 <body>
-    <div class="playlist-container">
-        <form action="index.html">
-            <input type="text" id="search" placeholder="Playlist Title">
-        </form>
-        <div class="controls">
-            <button id="play">Play</button>
-            <button id="pause">Pause</button>
-            <button id="next">Next</button>
-        </div>
-        <ul id="playlist">
-            <!-- Songs will be added here dynamically -->
-        </ul>
-        <input type="text" id="songInput" placeholder="Add a song file name">
-        <button id="addSong">Add Song</button>
+  <div class="playlist-container">
+    <h1>My Playlist</h1>
+    <ul id="playlist">
+      <li>Song 1 <button onclick="playSong('Song 1')">Play</button></li>
+      <li>Song 2 <button onclick="playSong('Song 2')">Play</button></li>
+      <li>Song 3 <button onclick="playSong('Song 3')">Play</button></li>
+    </ul>
+
+    <div id="current-song">No song playing</div>
+
+    <div class="add-song">
+      <input type="text" id="new-song" placeholder="Enter song name" />
+      <button onclick="addSong()">Add Song</button>
     </div>
-    <audio id="audioPlayer"></audio>
-    <script src="script.js"></script>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
