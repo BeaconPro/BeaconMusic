@@ -64,6 +64,20 @@ a {
 .button:hover {
     background-color: #0056b3; /* Hover color */
 }
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Button color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #0056b3; /* Hover color */
+}
 
 img {
   display: block;
