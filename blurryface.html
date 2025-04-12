@@ -22,12 +22,12 @@ x<!DOCTYPE html>
         <section>
             <p>1 - Heavydirtysoul</p>
             <audio controls>
-                <source src="New TOP/(2015) 01 Heavy Dirty Soul.mp3" type="audio/mpeg">
+                <source src="New TOP/Heavydirtysoul.m4a" type="audio/m4a">
                 Your browser does not support the audio element.
             </audio>
             <p>2 - Stressed Out</p>
             <audio controls>
-                <source src="New TOP/(2015) 02 Stressed Out.mp3" type="audio/mpeg">
+                <source src="New TOP/Stressed Out.m4a" type="audio/m4a">
                 Your browser does not support the audio element.
             </audio>
             <p>3 - Ride</p>
@@ -37,104 +37,62 @@ x<!DOCTYPE html>
             </audio>
             <p>4 - Fairly Local</p>
             <audio controls>
-                <source src="New TOP/(2015) 04 Fairly Local.mp3" type="audio/mpeg">
+                <source src="New TOP/Fairly Local.m4a" type="audio/m4a">
                 Your browser does not support the audio element.
             </audio>
             <p>5 - Tear In My Heart</p>
             <audio controls>
-                <source src="New TOP/(2015) 05 Tear In My Heart.mp3" type="audio/mpeg">
+                <source src="Tear In My Heart.m4a" type="audio/m4a">
                 Your browser does not support the audio element.
             </audio>
             <p>6 - Lane Boy</p>
             <audio controls>
-                <source src="New TOP/(2015) 06 Lane Boy.mp3" type="audio/mpeg">
+                <source src="New TOP/Lane Boy.m4a" type="audio/m4a">
                 Your browser does not support the audio element.
             </audio>
             <p>7 - The Judge</p>
             <audio controls>
-                <source src="New TOP/(2015) 07 The Judge.mp3" type="audio/mpeg">
+                <source src="New TOP/The Judge.m4a" type="audio/m4a">
                 Your browser does not support the audio element.
             </audio>
             <p>8 - Doubt</p>
             <audio controls>
-                <source src="New TOP/(2015) 08 Doubt.mp3" type="audio/mpeg">
+                <source src="New TOP/Doubt.m4a" type="audio/m4a">
                 Your browser does not support the audio element.
             </audio>
             <p>9 - Polarize</p>
             <audio controls>
-                <source src="New TOP/(2015) 09 Polarize.mp3" type="audio/mpeg">
+                <source src="New TOP/Polarize.m4a" type="audio/m4a">
                 Your browser does not support the audio element.
             </audio>
             <p>10 - We Don't Believe What's On TV</p>
             <audio controls>
-                <source src="New TOP/(2015) 10 We Don't Believe What's On TV.mp3" type="audio/mpeg">
+                <source src="New TOP/We Don't Believe What's On TV.m4a" type="audio/m4a">
                 Your browser does not support the audio element.
             </audio>
             <p>11 - Message Man</p>
             <audio controls>
-                <source src="New TOP/(2015) 11 Message Man.mp3" type="audio/mpeg">
+                <source src="New TOP/Message Man.m4a" type="audio/m4a">
                 Your browser does not support the audio element.
             </audio>
             <p>12 - Hometown</p>
             <audio controls>
-                <source src="New TOP/(2015) 12 Hometown.mp3" type="audio/mpeg">
+                <source src="New TOP/Hometown.m4a" type="audio/m4a">
                 Your browser does not support the audio element.
             </audio>
             <p>13 - Not Today</p>
             <audio controls>
-                <source src="New TOP/(2015) 13 Not Today.mp3" type="audio/mpeg">
+                <source src="New TOP/Not Today.m4a" type="audio/m4a">
                 Your browser does not support the audio element.
             </audio>
             <p>14 - Goner</p>
             <audio controls>
-                <source src="New TOP/(2015) 14 Goner.mp3" type="audio/mpeg">
+                <source src="New TOP/Goner.m4a" type="audio/m4a">
                 Your browser does not support the audio element.
             </audio>
-        </section>
-        <section>
-            <p>Play From Start To Finish</p>
-            <audio controls id="audioPlayer">
-                <source src="New TOP/(2015) 01 Heavy Dirty Soul.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
-            <script>
-                // Define your playlist
-            const playlist = [
-                'New TOP/(2015) 01 Heavy Dirty Soul.mp3',
-                'New TOP/(2015) 02 Stressed Out.mp3',
-                'TOP Music/Ride.mp3',
-                'New TOP/(2015) 04 Fairly Local.mp3',
-                'New TOP/(2015) 05 Tear In My Heart.mp3',
-                'New TOP/(2015) 06 Lane Boy.mp3',
-                'New TOP/(2015) 07 The Judge.mp3',
-                'New TOP/(2015) 08 Doubt.mp3',
-                'New TOP/(2015) 09 Polarize.mp3',
-                'New TOP/(2015) 10 We Don\'t Believe What\'s On TV.mp3',
-                'New TOP/(2015) 11 Message Man.mp3',
-                'New TOP/(2015) 12 Hometown.mp3',
-                'New TOP/(2015) 13 Not Today.mp3',
-                'New TOP/(2015) 14 Goner.mp3'
-            ];
-            
-            let currentSongIndex = 0;
-            const audioPlayer = document.getElementById('audioPlayer');
-            
-            // Set up the audio source initially
-            audioPlayer.src = playlist[currentSongIndex];
-            
-            // Add an event listener to detect when a song ends
-            audioPlayer.addEventListener('ended', () => {
-                // Move to the next song
-                currentSongIndex = (currentSongIndex + 1) % playlist.length; // Loop back to the first song
-                audioPlayer.src = playlist[currentSongIndex];
-                audioPlayer.play(); // Play the new song
-            });
-            
-            // Play the playlist on load (optional)
-            audioPlayer.play();
-              </script>
         </section>
     </main>
     <footer>
         <p>&copy; 2015 Blurryface Album</p>
+    </footer>
 </html>
