@@ -7,5 +7,4 @@ function changeBackground() {
         document.body.style.backgroundColor = "#74e1ff";
         document.body.style.color = "black";
     }
-  }
 }
